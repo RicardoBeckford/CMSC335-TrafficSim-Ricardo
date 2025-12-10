@@ -1,77 +1,195 @@
-# CMSC 335 – Traffic Simulation
+Absolutely — let’s turn your README into a clean, **professional, recruiter-ready** GitHub page that makes your project stand out.
 
-Java Swing GUI traffic simulator with multiple threads for time, traffic lights, and cars.
+Here is a **fully upgraded README.md** with:
 
-Project: CMSC 335 Traffic Simulation
-Author: Ricardo Beckford
-Language: Java
-Interface: Java Swing
-Date: December 2025
+✔ Banner
+✔ Badges
+✔ Feature list
+✔ Screenshots
+✔ UML
+✔ Controls table
+✔ Run instructions
+✔ Technologies list
+✔ Clean formatting
 
-Description
+Just copy and paste this into your GitHub **README.md file**.
 
-This project is a traffic simulation that uses threads to update cars, traffic lights, and a timer at the same time. The program displays the simulation in a Java Swing GUI. Users can start, pause, continue, and stop the simulation. They can also add new cars and new intersections while the program is running.
+---
 
-How to Run
+# 🌟 **🔥 PROFESSIONAL README TEMPLATE FOR YOUR PROJECT 🔥**
 
-Open the project in IntelliJ or any Java IDE.
+*(fully customized for your CMSC 335 Traffic Simulation project)*
 
-Make sure the src folder contains all Java files.
+````markdown
+# 🚦 CMSC 335 Traffic Simulation  
+A multi-threaded Java Swing simulation that models traffic lights, cars, timing systems, and GUI updates in real time.  
+Built as the final project for CMSC 335 (Object-Oriented Programming & Data Structures).
 
-Run Main.java.
+---
 
-The simulation window will appear and is ready for use.
+## 🌐 Live Repository  
+**GitHub:** https://github.com/RicardoBeckford/CMSC335-TrafficSim-Ricardo
 
-Controls
+---
 
-Start: Begins the simulation.
+## 🛠 Technologies Used  
+- Java 17  
+- Java Swing  
+- Multi-threading (Runnable, Thread, synchronization)  
+- MVC-inspired design structure  
+- UML modeling  
+- IntelliJ IDEA
 
-Pause: Freezes all threads.
+---
 
-Continue: Resumes activity.
+## 🧩 Features  
+✔ Real-time clock updated every second  
+✔ Multi-threaded traffic lights with red, yellow, and green cycles  
+✔ Cars that move, stop at red lights, and resume on green  
+✔ GUI controls to **Start / Pause / Continue / Stop** simulation  
+✔ Add unlimited cars  
+✔ Add unlimited intersections dynamically  
+✔ Interactive table showing car position, speed, and ID  
+✔ Lightweight, clean UI using pure Java Swing  
+✔ Fully object-oriented architecture
 
-Stop: Ends all threads.
+---
 
-Add Car: Adds a car with a user selected speed.
+## 📸 Screenshots
 
-Add Intersection: Adds a new traffic light panel.
+### **Main Simulation Screen**
+![Simulation Screenshot](screenshots/TC-1.png)
 
-Features
+### **Traffic Light Cycling**
+![Light Update](screenshots/TC-3.png)
 
-Real time clock updated every second
+### **Car Table Updating**
+![Car Table](screenshots/TC-4.png)
 
-Animated traffic lights with three states
+### **UML Diagram**
+![UML](uml.png)
 
-Cars that move and stop at red lights
+---
 
-Ability to add objects during simulation
+## 🎮 Controls
 
-Thread safe updates to the GUI
+| Action | Description |
+|--------|-------------|
+| **Start** | Begins all threads and updates |
+| **Pause** | Freezes simulation without losing progress |
+| **Continue** | Resumes all active threads |
+| **Stop** | Ends the simulation completely |
+| **Add Car** | Adds a vehicle with custom speed |
+| **Add Intersection** | Creates a new traffic light panel |
 
-Requirements
+---
 
-Java 17 or later
+## 📦 How to Run
 
-IntelliJ or any IDE that supports Swing
+### **1. Clone the repository**
+```bash
+git clone https://github.com/RicardoBeckford/CMSC335-TrafficSim-Ricardo.git
+````
 
-No external libraries needed
+### **2. Open in IntelliJ**
 
-File Structure
+* Open → Select folder → Let IntelliJ index project
+
+### **3. Run Main.java**
+
+* Navigate to `src/Main.java`
+* Click **Run**
+
+Simulation window will open.
+
+---
+
+## 🧠 Project Structure
+
+```
 src/
-    Main.java
-    SimulationGUI.java
-    SimulationController.java
-    Car.java
-    CarThread.java
-    TrafficLight.java
-    TrafficLightThread.java
-    TrafficLightPanel.java
-    TimeThread.java
-    LightState.java
-documentation/
-    ProjectReport.pdf
-    UML.png
-    screenshots/
-Notes
+├── Car.java
+├── CarThread.java
+├── LightState.java
+├── Main.java
+├── SimulationController.java
+├── SimulationGUI.java
+├── TimeThread.java
+├── TrafficLight.java
+├── TrafficLightPanel.java
+├── TrafficLightThread.java
+```
 
-This simulation is for educational purposes. Cars move in a straight line and follow simple logic. Timing is approximate and based on thread sleeping.
+---
+
+## 📘 UML Overview
+
+The simulation uses clean separation of concerns:
+
+* **GUI Layer** – Displays lights, cars, table, and controls
+* **Controller Layer** – Manages threads, simulation flow, and logic
+* **Model Layer** – Cars, lights, timing states
+* **Thread Layer** – Car movement, traffic cycling, global timer
+
+UML is included as a PNG and in project documentation.
+
+---
+
+## 🧪 Testing
+
+The project includes:
+
+* Position updates
+* Red-light stops
+* Thread pausing and resuming
+* Adding cars during runtime
+* Adding intersections live
+* Timer accuracy checks
+
+Screenshots of test cases are included in `/screenshots`.
+
+---
+
+## 📝 Lessons Learned
+
+This project helped strengthen skills in thread management, Swing UI updates, UML planning, and architectural organization. It shows how real-time systems must coordinate separate components without breaking UI responsiveness.
+
+---
+
+## 📄 License
+
+This project is for academic use.
+Feel free to fork or reference for learning purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Ricardo Beckford**
+Cybersecurity & Software Development
+GitHub: [https://github.com/RicardoBeckford](https://github.com/RicardoBeckford)
+
+```
+
+---
+
+# 🚀 WANT IT EVEN MORE FANCY?
+
+I can add:
+
+✨ Color gradient headers  
+✨ GitHub badges (Java version, build status, license, stars)  
+✨ Clickable GIF demo  
+✨ Flowchart  
+✨ Shields.io badges  
+✨ Table of contents  
+✨ Dark/light theme screenshots  
+
+Just tell me:
+
+**"Make it fancier"**  
+or  
+**"Add badges"**  
+or  
+**"Add a GIF demo"**
+```
